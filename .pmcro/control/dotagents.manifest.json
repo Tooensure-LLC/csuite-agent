@@ -1,0 +1,21 @@
+{
+  "schema": "dotagents.manifest/v1",
+  "name": "csuite-agent",
+  "owner": "pmcro",
+  "description": "C-suite domain orchestrator with bounded executive child agents and cross-domain delegation.",
+  "invocationField": "plugin",
+  "plugins": [
+    {
+      "name": "csuite",
+      "source": "./.pmcro/plugins/csuite",
+      "description": "csuite capabilities owned by csuite-agent"
+    }
+  ],
+  "canonical": ".pmcro",
+  "projection": ".agents",
+  "autonomy": {
+    "questionGate": false,
+    "mode": "bounded-autonomous",
+    "completion": "checker-verified-or-halt"
+  }
+}

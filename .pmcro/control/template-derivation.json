@@ -1,0 +1,8 @@
+{
+  "schema": "pmcro.template-derivation/v1",
+  "baseTemplate": "pmcr-o/pmcro-agent",
+  "baseContract": "global PMCR-O orchestration/runtime template",
+  "derivedProject": "csuite-agent",
+  "owner": "Tooensure-LLC",
+  "rule": "business specialization may add executive/domain policy but may not widen PMCR-O authority or bypass independent CHECK"
+}

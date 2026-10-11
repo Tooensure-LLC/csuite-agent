@@ -1,0 +1,24 @@
+{
+  "schema": "tooensure.csuite.business/v1",
+  "companyId": "replace-me",
+  "legalName": "Replace Me LLC",
+  "displayName": "Replace Me",
+  "industry": "replace-me",
+  "timezone": "UTC",
+  "fiscalYearStartMonth": 1,
+  "riskTier": "standard",
+  "dataClassification": "internal",
+  "enabledExecutiveAgents": [
+    "ceo-agent",
+    "cfo-agent",
+    "coo-agent",
+    "cto-agent",
+    "cmo-agent",
+    "chro-agent",
+    "ciso-agent",
+    "clo-agent",
+    "executive-council-agent"
+  ],
+  "domainAgents": [],
+  "notes": "Copy to business.json through eng/init-business.py. Do not commit secrets."
+}
